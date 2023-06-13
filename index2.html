@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 16</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+      </style>
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+</head>
+<body>
+    <header>
+        <article class="header1">
+            <p class="titulo1">20% de descuento en todos los productos!</p>
+        </article>
+        <article class="header2">
+            <img class="tienda" src="../trabajo en mesas/img/Logo.png">
+            <p class="titulo2">Nombre Tienda</p>
+        </article>
+        <article class="header3">
+            <nav>
+                <ul class="categorias" type="none">
+                    <li class="titulo3">Contacto</li>
+                    <li class="titulo3">Registrarme</li>
+                    <li class="titulo3">Ingresar</li>
+                </ul>    
+            </nav>
+        </article>
+    </header>
+    <main>
+        <form class="formularioC" action="proceso.php" method="post">
+            <legend Class="titulo">Añadí tu super!</legend>
+            <legend Class="subtitulo">Agrega tu personaje favorito completando las opciones.</legend>
+            <section class="formularioInterno">
+                <article class="columnLeft">
+                    <div class="entrada">
+                        <label for="nombre">*Nombre</label>
+                        <input class="entradaFechaEspecie" type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="fecha">
+                        <label for="fecha">Fecha</label>
+                        <input class="entradaFechaEspecie" type="date" id="fecha" name="fecha">
+                    </div>
+                    <div class="descripcion">
+                        <label for="descripcion"></label>
+                        <input class="entradaFechaEspecie descripcion"type="text" id="descripcion" name="descripcion" placeholder="Descripción">
+                    </div>
+                </article>
+                <article class="columnRight">
+                    <div class="especie">
+                        <label class="especie">*Especie</label>
+                        <select class="entradaFechaEspecie" name="especie" id="especie" required>
+                            <option value="NA">Especie</option>
+                            <option value="SSP">Sin poderes</option>
+                            <option value="CPN">Con poderes de nacimiento</option>
+                            <option value="SPA">Super poderes adquiridos</option>
+                            <option value="OSP">Objetos que les proporcionan poderes</option>
+                        </select>
+                    </div>
+                    <div class="carga">
+                        <label for="carga">Agregar Foto</label>
+                        <input type="file" id="carga" name="carga">  
+                    </div>
+                    <div class="poderes">
+                        <p>Poderes</p>
+                        <div>
+                            <input type="checkbox" name="poderes" id="poderes">
+                            <label class="poderes">Volar</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="poderes" id="poderes">
+                            <label class="poderes">Superinteligencia</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="poderes" id="poderes">
+                            <label class="poderes">Vista de rayo láser</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="poderes" id="poderes">
+                        <label class="poderes">Billetera gorda</label>
+                        </div>
+                        
+                    </div>
+                    <hr>
+                    </div>
+                    <div class="tipoPersonaje">
+                        <p>Tipo de personaje</p>
+                        <div>
+                            <input type="radio" name="tipoPersonaje" id="tipoPersonaje">
+                            <label class="tipoPersonaje">Héroe / Heroina</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" name="tipoPersonaje" id="tipoPersonaje">
+                            <label class="tipoPersonaje">Villano / Villana</label>
+                        </div>  
+                    </div>
+                </article>
+            </section>
+            <div class="botonAñadir">
+                <label class="Añadir"></label>
+                <button type="submit" name="añadir" id="añadir">Añadir</button>
+        
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="pieDePagina"><p class="textofooter">Todos los derechos reservados a FRONT END 1</p> </div>
+    </footer>
+</body>
+</html>

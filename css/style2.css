@@ -76,7 +76,7 @@
     color: #FBFFFD;
     margin:10px;
 }
-
+ 
 .subtitulo{
     display:flex;
     justify-content: space-around;
@@ -114,7 +114,7 @@
 }
 
 .entradaFechaEspecie{
-    display:flex;
+    display:flex; 
     width: 250px;
     height: 40px;
     background: #FFFFFF;
@@ -173,6 +173,9 @@
 
 }
 
+/* input[type="text"]{
+    border-color: red;
+} */
 
 
 

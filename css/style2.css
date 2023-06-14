@@ -92,6 +92,7 @@
 .formularioInterno{
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
@@ -113,6 +114,7 @@
 }
 
 .entradaFechaEspecie{
+    display:flex;
     width: 250px;
     height: 40px;
     background: #FFFFFF;

@@ -57,6 +57,11 @@
     padding-right: 10px;
 }
 
+.titulo3 a{
+    text-decoration: none;
+    color: white;
+}
+
 .formularioC{
     Display:flex;
     flex-direction: column;
@@ -173,9 +178,33 @@
 
 }
 
-/* input[type="text"]{
-    border-color: red;
-} */
+input[type="text"]:focus{
+   background-color: #1CD1B0;
+}
+
+#añadir:hover {
+    color: #FF00FF;
+    background-color: chartreuse;
+  }
+
+.titulo3 a:hover{
+    color: #FF00FF;
+}
+
+.nombreespecie::before{
+    content:"*";
+    color: #FF00FF;
+}
+
+input[type="checkbox"]:checked{
+    box-shadow:0 0 0 3px #FF00FF;
+}
+
+input[type="radio"]:checked{
+    box-shadow:0 0 0 3px chartreuse;
+}
+
+
 
 
 
